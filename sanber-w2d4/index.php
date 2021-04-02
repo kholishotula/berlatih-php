@@ -1,4 +1,5 @@
 <?php
+    require_once('animal.php');
     require_once('Frog.php');
     require_once('Ape.php');
 
