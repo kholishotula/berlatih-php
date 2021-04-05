@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: aqua;">
+    <div id="jawaban">
+        <p class="text-test">Ujian</p>
+        <p class="text-test">Pekanan</p>
+        <p class="text-test">Sanbercode</p>
+    </div>
+    <table>
+        <tr>
+            <td>row 1 col 1</td>
+            <td>row 1 col 2</td>
+        </tr>
+    </table>
+    <a href="#" style="text-decoration: none;">Link</a>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+    <script>
+        var quiz1 = document.getElementsByClassName("text-test")[1].innerHTML = "Quiz1";
+
+        var colors = ["red", "green", "blue"]
+        console.log(typeof colors)
+
+        var i = 0
+        while (i<=10){
+            if(i===5){
+                console.log("aku 5")
+            }
+            console.log(i)
+            i++
+        }
+
+        var string = "Sanbercode"
+        console.log(string.substr(6,4))
+    </script>
+
+    <style>
+        li {
+            display: inline;
+        }
+    </style>
+</body>
+</html>
